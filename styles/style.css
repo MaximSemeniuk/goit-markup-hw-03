@@ -233,11 +233,8 @@ img {
 /* portfolio projects */
 
 .project-list {
-  display: inline-table;
-}
-
-.project-card {
-  display: inline-block;
+  display: flex;
+  flex-flow: wrap;
 }
 
 .project-card:nth-child(-n + 6) {
