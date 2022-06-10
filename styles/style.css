@@ -234,7 +234,11 @@ img {
 
 .project-list {
   display: flex;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  width: 370px;
 }
 
 .project-card:nth-child(-n + 6) {
@@ -298,14 +302,14 @@ img {
   font-size: 16px;
   line-height: 1.88;
 
-  align-items: center;
-  text-align: center;
+  padding: 10px 32px;
+
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
   background-color: var(--link-color);
 
   border-radius: 4px;
-  border: transparent;
+  border: none;
 }
 
 .hero-button:hover,
